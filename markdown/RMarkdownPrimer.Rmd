@@ -1,7 +1,13 @@
 ---
 title: "Markdown Primer"
 author: "Jared P. Lander"
-output: html_document
+output: 
+    html_document:
+        toc: yes
+        toc_float:
+            smooth_scroll: yes
+            collapsed: no
+        number_sections: yes
 ---
 
 ```{r settings}
