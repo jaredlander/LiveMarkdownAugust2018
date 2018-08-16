@@ -1,0 +1,33 @@
+---
+title: "Markdown Primer"
+author: "Jared P. Lander"
+output: html_document
+---
+
+# My First Section
+
+We started a new section with a a hashtag and this is the first paragraph in that section. Notice that the text will automatically wrap to the next line in the editor, but it still has the same line number. All text on a single line is considered one paragraph.
+
+Leaving a blank line starts a new paragraph. Remember, markdown is highly space and case sensitive.
+If you don't leave a blank line, this sentence is still part of the same paragraph.
+
+# New Section
+
+You start a new section by leaving a blank line and starting the next line with a hashtag. No need to close the previous section, simply start a new one.
+
+# Subsections
+
+Creating subsections is just as easy, aimply use two hashtags.
+
+## First Subsection
+
+We started as subsection within a section bu using two hashtags. No need to do anything to the section itself.
+
+## Another Subsection
+
+Just like with sections, to start a new subsection simply start a line with two hashtags. Again, no need to close the previous subsection.
+
+# Back to Sections
+
+We return to a level 1 section by starting a new one with a single hashtag. Again, no need to close the previous sections or subsections.
+
