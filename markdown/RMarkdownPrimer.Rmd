@@ -66,3 +66,11 @@ ___Emphasized and strong text___
 1. Detroit
 1. Rome
 1. Naples
+
+i. Mushrooms
+i. Garlic
+i. Peppers
+
+# Links
+
+[My website](https://www.jaredlander.com)
