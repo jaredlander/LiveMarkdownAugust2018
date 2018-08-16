@@ -40,3 +40,29 @@ __Strong Text__
 ___Emphasized and strong text___
 
 `anything in backticks looks like computer code`
+
+# Lists
+
+## Unordered Lists
+
+- Apple
+- Banana
+- Orange
+- Mango
+- Durian
+- Kiwi
+- Watermelon
+
+## Ordered Lists
+
+1. New York
+    a. Coal
+    a. Wood
+    a. Gas
+1. New Jersey
+    a. Gas
+    a. Wood
+1. Philadelphia
+1. Detroit
+1. Rome
+1. Naples
