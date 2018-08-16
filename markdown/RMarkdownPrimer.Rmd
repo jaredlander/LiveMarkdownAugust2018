@@ -31,3 +31,12 @@ Just like with sections, to start a new subsection simply start a line with two 
 
 We return to a level 1 section by starting a new one with a single hashtag. Again, no need to close the previous sections or subsections.
 
+# Formatting Text
+
+_Emphasized Text Goes Here_
+
+__Strong Text__
+
+___Emphasized and strong text___
+
+`anything in backticks looks like computer code`
