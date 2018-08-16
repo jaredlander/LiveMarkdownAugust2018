@@ -10,9 +10,17 @@ output:
 
 Some text to go on the slide, even though you really should use bery little text and mostly images when giving a talk.
 
+<div class='notes'>
+There shouldn't be so much text
+</div>
+
 ## This is Awesome
 
 Wooooooo!!!!
+
+<div class='notes'>
+This is the greatest way to make a slideshow
+</div>
 
 ## Plot
 
@@ -21,3 +29,8 @@ library(ggplot2)
 ggplot(diamonds, aes(x=price)) + geom_histogram()
 ```
 
+<div class='notes'>
+- histogram
+- diamond prices
+- we should really set the number of bins
+</div>
