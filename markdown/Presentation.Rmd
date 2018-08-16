@@ -1,0 +1,23 @@
+---
+title: Awesome Slideshow
+author: Jared P. Lander
+output:
+    ioslides_presentation:
+        widescreen: yes
+---
+
+## My First Slide
+
+Some text to go on the slide, even though you really should use bery little text and mostly images when giving a talk.
+
+## This is Awesome
+
+Wooooooo!!!!
+
+## Plot
+
+```{r diamonds-plot,fig.align='center',message=FALSE}
+library(ggplot2)
+ggplot(diamonds, aes(x=price)) + geom_histogram()
+```
+
