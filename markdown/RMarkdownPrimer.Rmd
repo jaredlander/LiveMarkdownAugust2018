@@ -8,6 +8,10 @@ output:
             smooth_scroll: yes
             collapsed: no
         number_sections: yes
+    pdf_document:
+        toc: yes
+    word_document:
+        toc: yes
 ---
 
 ```{r settings}
@@ -126,4 +130,12 @@ library(ggplot2)
 ggplot(diamonds, aes(x=carat, y=price, color=cut)) + geom_point()
 ```
 
+# Math
 
+$$
+    \bar{x} = \sum_{i=1}^n \frac{1}{n} x_i
+$$
+
+The number $\pi$ is defined as 3.14159....
+
+A more complicated expression is $\hat{\beta}=(X^TX)^{-1}X^TY$ for regression
