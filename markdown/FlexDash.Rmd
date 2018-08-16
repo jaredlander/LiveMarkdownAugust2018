@@ -1,0 +1,47 @@
+---
+title: Flex Example
+output:
+    flexdashboard::flex_dashboard:
+        oritentation: columns
+        social: ["twitter", "facebook"]
+        source_code: embed
+---
+
+```{r setup,include=FALSE}
+knitr::opts_chunk$set(echo=FALSE, cache=TRUE, message=FALSE, fig.align='center')
+```
+
+```{r load-packages}
+library(ggplot2)
+library(DT)
+```
+
+# Page One
+
+## Left Column
+
+### Top Left
+
+```{r diamond-hist}
+ggplot(diamonds, aes(x=price)) + geom_histogram()
+```
+
+### Bottom Left
+
+Hello, World
+
+## Right Column
+
+### Right Side
+
+```{r diamonds-table}
+datatable(head(diamonds, n=1000), rownames=FALSE)
+```
+
+# Page Two
+
+##
+
+###
+
+Your ad here
