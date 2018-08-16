@@ -4,6 +4,11 @@ author: "Jared P. Lander"
 output: html_document
 ---
 
+```{r settings}
+knitr::opts_chunk$set(cache=TRUE, fig.align='center', echo=TRUE)
+```
+
+
 # My First Section
 
 We started a new section with a a hashtag and this is the first paragraph in that section. Notice that the text will automatically wrap to the next line in the editor, but it still has the same line number. All text on a single line is considered one paragraph.
@@ -102,4 +107,17 @@ Let's show the results of a chunk without showing the code.
 ```{r another-example,echo=FALSE}
 5*x + 4
 ```
+
+# Plots
+
+Let's all make a plot today
+
+```{r load-ggplot2}
+library(ggplot2)
+```
+
+```{r plot-diamonds,fig.align='center',fig.cap='A scatterplot of diamond price vs size, color coded according to diamond cut.',cache=TRUE}
+ggplot(diamonds, aes(x=carat, y=price, color=cut)) + geom_point()
+```
+
 
